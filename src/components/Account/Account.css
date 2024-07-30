@@ -1,0 +1,49 @@
+
+
+.account-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .account-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .account-container input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .account-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .account-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .account-container .logout-button {
+    background-color: #f44336; 
+  }
+  
+  .account-container .logout-button:hover {
+    background-color: #e53935; 
+  }
+  
